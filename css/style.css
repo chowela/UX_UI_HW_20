@@ -1,0 +1,119 @@
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'poppins', sans-serif;
+  }
+  
+/* General */
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+ /* Jumbotron  */
+.jumbotron {
+    background-image: url("../images/Spin-the-meal-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh - 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Jumbotron copy */
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+  
+.problem {
+ background-color: ;
+}
+  
+/*footer----------------------------*/
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+ .connect{
+    padding:30px;
+
+ } 
+  .connect h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: #2E2E2E;
+    max-width: 660px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+.footericons{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    position: relative;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+}
+ .footericons p{
+    font-family: montserrat, sans-serif;
+    font-size: x-small;
+    font-weight: 300;
+    margin-left: auto;
+    justify-content: flex-end;
+    text-align: right;
+    max-width: 1400px;
+  }
