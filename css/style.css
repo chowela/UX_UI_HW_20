@@ -80,56 +80,102 @@ p{
 }
 
 .row img{
-    margin: 20px;
+    margin: 0px;
 }
 /*footer----------------------------*/
 
 #footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 40px;
-    max-width: 1400px;
-    margin: 0 auto;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 40px;
+  width: 100%;
+  margin: 0 auto;
 }
 
- .connect{
-    padding:30px;
+.connect{
+  padding:30px;
 
- } 
-  .connect h2 {
-    font-family: Montserrat, sans-serif;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 38px;
-    color: #2E2E2E;
-    max-width: 660px;
-    min-width: 300px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+} 
+.connect h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  color: #2E2E2E;
+  max-width: 660px;
+  min-width: 300px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 
+.connect a {
+  font-family: montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2E2E2E;
+  text-decoration: none;
+}
 
+.links{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links ul li {
+  flex-basis: 50%;
+  text-align: left;
+}
+
+.links ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #2E2E2E;
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-size: small;
+}
+
+.links p {
+  font-family: montserrat, sans-serif;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 10px;
+  justify-content: flex-end;
+}
 
 .footericons{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: baseline;
-    position: relative;
-    gap: 10px;
-    justify-content: center;
-    max-width: 1400px;
-    margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  position: relative;
+  gap: 10px;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0px;
 }
- .footericons p{
-    font-family: montserrat, sans-serif;
-    font-size: x-small;
-    font-weight: 300;
-    margin-left: auto;
-    justify-content: flex-end;
-    text-align: right;
-    max-width: 1400px;
-  }
+
+.footerinstagram, .footerlinkedin, .footeremail{
+  margin: 0%;
+}
+.footericons p{
+  font-family: montserrat, sans-serif;
+  font-size: x-small;
+  font-weight: 300;
+  margin-left: auto;
+  justify-content: flex-end;
+  text-align: right;
+  max-width: 1400px;
+}
