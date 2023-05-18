@@ -2,71 +2,86 @@ h1, h2, h3 , h4, h5, h6 {
     font-family: 'poppins', sans-serif;
   }
   
+p{
+    font-family: 'poppins', sans-serif;
+}
 /* General */
 .customNav {
     position: fixed;
     width: 100%;
-    background: url("../images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
-    z-index: 10;
   }
-  .navbar-nav {
-    margin-left: auto;
+
+  .navbar-nav{
+    margin-left: 80%;
     margin-right: 0 !important;
-  }
+}
+
   .navbar-brand img {
     padding-right: 15px;
-    width: 65px;
+    width: 80;
   }
   .nav-item {
     margin: 0px 15px;
   }
   
-  /* Navigation dropdown menu */
-  .dropdown-menu {
-    background: url("../images/transparency.png");
-    background-color: transparent !important;
-    background-size: cover;
-  }
-  .dropdown-item:focus, .dropdown-item:hover {
-      color: #16181b;
-      text-decoration: none;
-      background: black;
-  }
-  
-  /* Navigation links */
-  .customNav a {
-    color: white !important;
-  }
-  .navCTA {
-    font-size: 15px;
-  }
-  
+
  /* Jumbotron  */
 .jumbotron {
     background-image: url("../images/Spin-the-meal-hero.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh - 25px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
-  /* Jumbotron copy */
-  .jumboCopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
+
+  .jumbotron h1{
     color: white;
-    text-align: center;
   }
   
-.problem {
- background-color: ;
-}
+  .jumbotron p{
+    color: white;
+  }
+  /* Jumbotron copy */
+
+  .jumboCopy h3{
+    color: #E473B7;
+  }
+
+  .jumboCopy{
+    background-color: #EAE9E4;
+    padding: 60px;
+  }
   
+
+.btn{
+    color: #E473B7;
+}
+
+.media{
+    margin: 60px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.media img{
+    height: 700px;
+    width: 800px;
+    margin: none;
+}
+
+.container{
+    padding: 80px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.row img{
+    margin: 20px;
+}
 /*footer----------------------------*/
 
 #footer{
@@ -76,6 +91,7 @@ h1, h2, h3 , h4, h5, h6 {
     padding: 30px 40px;
     max-width: 1400px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
  .connect{
